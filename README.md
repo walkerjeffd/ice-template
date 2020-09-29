@@ -76,7 +76,7 @@ These files are organized by theme within the `data/` folder. The files for each
 
 Each `theme.json` must contain attributes for the `id`, `label`, `description`, and `variables`. The `variables` attribute must be an array that defines a series of properties for each variable in the dataset.
 
-```json
+```
 {
   "id": "northeast",
   "label": "Northeast Example",
@@ -89,7 +89,7 @@ Each `theme.json` must contain attributes for the `id`, `label`, `description`, 
 
 Numeric variables must have the following format.
 
-```json
+```
 {
   "id": "variable1", // must match column name in the data.csv file
   "label": "Variable 1", // how the variable is displayed in the interface
@@ -112,7 +112,7 @@ Numeric variables must have the following format.
 
 Categorical variables must have the following format.
 
-```json
+```
 {
   "id": "variable3", // must match column name in the data.csv file
   "label": "Variable 3", // how the variable is displayed in the interface
@@ -153,7 +153,7 @@ Each feature must contain a unique `id`, which corresponds to the `id` column in
 
 Note that in this starter template, ICE is only configured to render point geometries. However, alternative geometries (polylines, polygons) could be supported by modifying the render functions within the `src/components/IceMapLayer.vue` component.
 
-```json
+```
 {
   "type": "FeatureCollection",
   "name": "layer",
@@ -208,7 +208,7 @@ The name of each theme component must be a CamelCase version of the theme id (e.
 
 The list of available themes is stored in the `src/assets/themes.json` file. This file must contain an array of folders. Each folder has an `id` and `name`, as well as an array of `children`, which contain the themes for that folder. Each theme must have an `id`, `name`, and `description`. Remember that the `theme.id` must match the name of the folder in `data/` containing the files for that theme.
 
-```json
+```
 [
   {
     "id": "project",
