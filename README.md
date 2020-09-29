@@ -11,6 +11,8 @@ ICE provides a generalized approach for creating web-based interactive data visu
 
 This template contains a working demo that presents two example datasets in order to demonstrate the proper file structures and formats.
 
+The `Prerequisites` section describes the software needed for development.
+
 The `Quick Start` section of this README provides basic instructions for running the demo.
 
 The `Building a New Application` section then walks through the steps necessary to adapt this application for new datasets.
