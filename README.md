@@ -1,7 +1,9 @@
 # Interactive Catchment Explorer (ICE) Template
 
 Jeffrey D Walker, PhD (<jeff@walkerenvres.com>)  
-[Walker Environmental Research, LLC](https://walkerenvres.com)  
+[Walker Environmental Research, LLC](https://walkerenvres.com)
+
+[![DOI](https://zenodo.org/badge/299613592.svg)](https://zenodo.org/badge/latestdoi/299613592)
 
 ## About
 
