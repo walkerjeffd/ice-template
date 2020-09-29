@@ -131,10 +131,10 @@ Categorical variables must have the following format.
     "filter": null           // null for categorical variables
   },
   "scale": {
-    "domain": [ // domain is an array that maps each unique value in the dataset to a label (e.g., if variable3="A" then the value is shown as "Value A")
+    "domain": [              // domain is an array that maps each unique value in the dataset to a label (e.g., if variable3="A" then the value is shown as "Value A")
       {
-        "value": "A", // value in data.csv
-        "label": "Value A" // label for displaying value
+        "value": "A",        // value in data.csv
+        "label": "Value A"   // label for displaying value
       },
       {
         "value": "B",
