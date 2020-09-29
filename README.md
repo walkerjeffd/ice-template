@@ -35,7 +35,7 @@ npm install -g @vue/cli http-server
 
 ## Quick Start
 
-Complete the following steps to run the demo application in this repo, which includes two example datasets.
+Complete the following steps to run the demo application in this repo, which includes two example datasets. See `data/scripts/README.md` for details about these datasets and how they were created.
 
 ### Project setup
 
