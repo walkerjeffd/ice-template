@@ -202,7 +202,7 @@ id,variable1,variable2,variable3
 ...
 ```
 
-#### features/<ID>.json
+#### features/ID.json
 
 Lastly, the `features/` subfolder within the theme contains a collection of files, one for each unique spatial features. Each file must be named using the `id` of the corresponding feature (same as the `id` column in `data.csv` and the `id` attribute in the `layer.json` file).
 
