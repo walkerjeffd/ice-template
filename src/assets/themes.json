@@ -1,0 +1,18 @@
+[
+  {
+    "id": "project",
+    "name": "Example Datasets",
+    "children": [
+      {
+        "id": "northeast",
+        "name": "Northeast Dataset",
+        "description": "Example dataset of the northeast (Region 01)"
+      },
+      {
+        "id": "northwest",
+        "name": "Northwest Dataset",
+        "description": "Example dataset of the northwest (Region 17)"
+      }
+    ]
+  }
+]

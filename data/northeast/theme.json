@@ -1,0 +1,76 @@
+{
+  "id": "northeast",
+  "label": "Northeast Example",
+  "description": "Example dataset of the northeast U.S.",
+  "variables": [
+    {
+      "id": "variable1",
+      "label": "Variable 1",
+      "description": "A dummy variable from 0 to 1",
+      "units": null,
+      "type": "num",
+      "group": "Variable Group",
+      "map": true,
+      "filter": true,
+      "formats": {
+        "value": ".1%",
+        "map": ".1%",
+        "filter": ".1%"
+      },
+      "scale": {
+        "domain": [0, 1],
+        "transform": "linear"
+      }
+    },
+    {
+      "id": "variable2",
+      "label": "Variable 2",
+      "description": "A normally distributed variable (mean = 0, sd = 1)",
+      "units": "km",
+      "type": "num",
+      "group": "Variable Group",
+      "map": true,
+      "filter": true,
+      "formats": {
+        "value": ".1f",
+        "map": ".1f",
+        "filter": ".1f"
+      },
+      "scale": {
+        "domain": [-3, 3],
+        "transform": "linear"
+      }
+    },
+    {
+      "id": "variable3",
+      "label": "Variable 3",
+      "description": "A categorical variable",
+      "units": null,
+      "type": "cat",
+      "group": "Variable Group",
+      "map": true,
+      "filter": true,
+      "formats": {
+        "value": null,
+        "map": null,
+        "filter": null
+      },
+      "scale": {
+        "domain": [
+          {
+            "value": "A",
+            "label": "Value A"
+          },
+          {
+            "value": "B",
+            "label": "Value B"
+          },
+          {
+            "value": "C",
+            "label": "Value C"
+          }
+        ]
+      }
+    }
+  ]
+}
